@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067BB6F08F106844AE7C4DB4 /* CSVImportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EBF9639452BCEA3DC58F2C /* CSVImportService.swift */; };
+		0B8FE50437C599D8C6CDCC6A /* CARsRecencyEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EE424198E752DD7AF7D0D8 /* CARsRecencyEngineTests.swift */; };
+		0BD95FBCF4E3FDBD5913DF02 /* PilotLogbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0750976A8ED1B826A4C874FC /* PilotLogbookApp.swift */; };
+		14BF77741C5C3732BF263651 /* SimulatorSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED9E3E047B6F7BC1EBD687D /* SimulatorSession.swift */; };
+		14F999F938499677D3DCC697 /* FlightValidationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1BCFB1FD0228ED7F220EC5 /* FlightValidationEngine.swift */; };
+		15B1468B95D61133FE2040BE /* AircraftManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EBA5D22398037816E65ED5 /* AircraftManagerView.swift */; };
+		44A3969D5B73C728EFCE61CE /* FlightDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EFDC019E9E9AF9341927B /* FlightDetailView.swift */; };
+		48D26C0B6387E6C725220CA2 /* AircraftEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E4DBB47DA01179C636422 /* AircraftEditView.swift */; };
+		6000B573A7FC56D335C0C872 /* TimeMathAndAirportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF9BFD11BDF8D2082624005 /* TimeMathAndAirportTests.swift */; };
+		60141F37F00EE6D1F484E3FC /* LogbookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214BAD93E566BCE47CDF0C81 /* LogbookListView.swift */; };
+		722F359083DE974881AE4B68 /* AircraftManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E37F2E58DDDEE2D2043F232 /* AircraftManagementTests.swift */; };
+		7539B69B616F9C518C9535F2 /* AirportDirectoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C71AE45918938DC4898E3 /* AirportDirectoryService.swift */; };
+		79A6C24D840558F0065C76CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FC3FD0FE22DED483FB12DD /* ContentView.swift */; };
+		9857A367CDF36334E284334D /* FlightValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3E33369C3E96603BFA2A50 /* FlightValidationTests.swift */; };
+		9973FB439786B505A45643E2 /* TimeMathService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC78B71FE4907C8C03E56BA8 /* TimeMathService.swift */; };
+		9B74E90DADAC8CF1A8D28AC9 /* PilotProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB74A746ACC34B2D7ED6B31 /* PilotProfile.swift */; };
+		9DD49E5EE80F22E82C269CC0 /* CARsDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C5E9DD754E3D0D40959326 /* CARsDashboardView.swift */; };
+		A62831B6A70A0ACC7109FFD3 /* QuickLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61E3806601207B520828856 /* QuickLogView.swift */; };
+		B1449C81D2835EB556268BAB /* SimulatorLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32EBFA219C35FC9A97BA75 /* SimulatorLogView.swift */; };
+		C58BB5C29933F4BB5F52841D /* FlightLogEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5CA9F7ADD93341289D52F9 /* FlightLogEntry.swift */; };
+		D8DD6BE14F679C134C9FC0CC /* Aircraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2E909D39FADAE6D2F9B545 /* Aircraft.swift */; };
+		DA523CDB8D46CF6C727C3ED7 /* CARsRecencyEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1CAFC77CEB0826E3B26B91 /* CARsRecencyEngine.swift */; };
+		ECD3CDB0550D0A8B4FE6BCAA /* AirportPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF149A96B4035FD92C9587D /* AirportPickerSheet.swift */; };
+		FE63C82213E08CABDD27A46C /* MacLogbookTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ED9B5DC4E7096B95CD9EE4 /* MacLogbookTableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A72C1FFBF1991037761686EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 608FE8881A963B5270D04C2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E9AD616500A2D8A479F3DD5;
+			remoteInfo = PilotLogbook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0750976A8ED1B826A4C874FC /* PilotLogbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilotLogbookApp.swift; sourceTree = "<group>"; };
+		11FC3FD0FE22DED483FB12DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		14ED9B5DC4E7096B95CD9EE4 /* MacLogbookTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLogbookTableView.swift; sourceTree = "<group>"; };
+		1BF9BFD11BDF8D2082624005 /* TimeMathAndAirportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeMathAndAirportTests.swift; sourceTree = "<group>"; };
+		1E4C71AE45918938DC4898E3 /* AirportDirectoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportDirectoryService.swift; sourceTree = "<group>"; };
+		214BAD93E566BCE47CDF0C81 /* LogbookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogbookListView.swift; sourceTree = "<group>"; };
+		2D1BCFB1FD0228ED7F220EC5 /* FlightValidationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightValidationEngine.swift; sourceTree = "<group>"; };
+		2E5CA9F7ADD93341289D52F9 /* FlightLogEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightLogEntry.swift; sourceTree = "<group>"; };
+		3EB74A746ACC34B2D7ED6B31 /* PilotProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilotProfile.swift; sourceTree = "<group>"; };
+		441DC8C0C85A5EA9A4A003AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4AF149A96B4035FD92C9587D /* AirportPickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportPickerSheet.swift; sourceTree = "<group>"; };
+		64EBF9639452BCEA3DC58F2C /* CSVImportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVImportService.swift; sourceTree = "<group>"; };
+		6D9EFDC019E9E9AF9341927B /* FlightDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailView.swift; sourceTree = "<group>"; };
+		7E37F2E58DDDEE2D2043F232 /* AircraftManagementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftManagementTests.swift; sourceTree = "<group>"; };
+		8B1CAFC77CEB0826E3B26B91 /* CARsRecencyEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CARsRecencyEngine.swift; sourceTree = "<group>"; };
+		91573DB631EB7A8746CBD0D2 /* PilotLogbook.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PilotLogbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78A7E66E2121192F55348FF /* PilotLogbookTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PilotLogbookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3E33369C3E96603BFA2A50 /* FlightValidationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightValidationTests.swift; sourceTree = "<group>"; };
+		C0EBA5D22398037816E65ED5 /* AircraftManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftManagerView.swift; sourceTree = "<group>"; };
+		C6EE424198E752DD7AF7D0D8 /* CARsRecencyEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CARsRecencyEngineTests.swift; sourceTree = "<group>"; };
+		CC78B71FE4907C8C03E56BA8 /* TimeMathService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeMathService.swift; sourceTree = "<group>"; };
+		CE32EBFA219C35FC9A97BA75 /* SimulatorLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorLogView.swift; sourceTree = "<group>"; };
+		D61E3806601207B520828856 /* QuickLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLogView.swift; sourceTree = "<group>"; };
+		DA2E4DBB47DA01179C636422 /* AircraftEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftEditView.swift; sourceTree = "<group>"; };
+		EB2E909D39FADAE6D2F9B545 /* Aircraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aircraft.swift; sourceTree = "<group>"; };
+		F3C5E9DD754E3D0D40959326 /* CARsDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CARsDashboardView.swift; sourceTree = "<group>"; };
+		FED9E3E047B6F7BC1EBD687D /* SimulatorSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorSession.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		14DE1AE65530D3A7D4188CD5 /* Engines */ = {
+			isa = PBXGroup;
+			children = (
+				1E4C71AE45918938DC4898E3 /* AirportDirectoryService.swift */,
+				8B1CAFC77CEB0826E3B26B91 /* CARsRecencyEngine.swift */,
+				2D1BCFB1FD0228ED7F220EC5 /* FlightValidationEngine.swift */,
+				CC78B71FE4907C8C03E56BA8 /* TimeMathService.swift */,
+			);
+			path = Engines;
+			sourceTree = "<group>";
+		};
+		3E48E8D00545EE3175F6F055 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA2E4DBB47DA01179C636422 /* AircraftEditView.swift */,
+				C0EBA5D22398037816E65ED5 /* AircraftManagerView.swift */,
+				4AF149A96B4035FD92C9587D /* AirportPickerSheet.swift */,
+				F3C5E9DD754E3D0D40959326 /* CARsDashboardView.swift */,
+				11FC3FD0FE22DED483FB12DD /* ContentView.swift */,
+				6D9EFDC019E9E9AF9341927B /* FlightDetailView.swift */,
+				214BAD93E566BCE47CDF0C81 /* LogbookListView.swift */,
+				14ED9B5DC4E7096B95CD9EE4 /* MacLogbookTableView.swift */,
+				D61E3806601207B520828856 /* QuickLogView.swift */,
+				CE32EBFA219C35FC9A97BA75 /* SimulatorLogView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4FB8090C7C808D6231CB16A5 = {
+			isa = PBXGroup;
+			children = (
+				CBCD23E6B25DF9AADA7AABEE /* iOS */,
+				B5D26D6ACCB9056F87E56B88 /* Shared */,
+				C0FE72AD2482C2D9B6235A7C /* Tests */,
+				F6415E6695DED862D3372F98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5257565CC3CCAD33968F91E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB2E909D39FADAE6D2F9B545 /* Aircraft.swift */,
+				2E5CA9F7ADD93341289D52F9 /* FlightLogEntry.swift */,
+				3EB74A746ACC34B2D7ED6B31 /* PilotProfile.swift */,
+				FED9E3E047B6F7BC1EBD687D /* SimulatorSession.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		67D51FFA5548215B78C9F3D7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				64EBF9639452BCEA3DC58F2C /* CSVImportService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B5D26D6ACCB9056F87E56B88 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0750976A8ED1B826A4C874FC /* PilotLogbookApp.swift */,
+				14DE1AE65530D3A7D4188CD5 /* Engines */,
+				5257565CC3CCAD33968F91E0 /* Models */,
+				67D51FFA5548215B78C9F3D7 /* Services */,
+				3E48E8D00545EE3175F6F055 /* Views */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C0FE72AD2482C2D9B6235A7C /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7E37F2E58DDDEE2D2043F232 /* AircraftManagementTests.swift */,
+				C6EE424198E752DD7AF7D0D8 /* CARsRecencyEngineTests.swift */,
+				BC3E33369C3E96603BFA2A50 /* FlightValidationTests.swift */,
+				1BF9BFD11BDF8D2082624005 /* TimeMathAndAirportTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		CBCD23E6B25DF9AADA7AABEE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				441DC8C0C85A5EA9A4A003AF /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		F6415E6695DED862D3372F98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91573DB631EB7A8746CBD0D2 /* PilotLogbook.app */,
+				A78A7E66E2121192F55348FF /* PilotLogbookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E9AD616500A2D8A479F3DD5 /* PilotLogbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2000D70423440A3B526AE30 /* Build configuration list for PBXNativeTarget "PilotLogbook" */;
+			buildPhases = (
+				7E2963B50284588048A1A539 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PilotLogbook;
+			packageProductDependencies = (
+			);
+			productName = PilotLogbook;
+			productReference = 91573DB631EB7A8746CBD0D2 /* PilotLogbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D6B20B037BFFFDEF0B8A330 /* PilotLogbookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A62523AB172EFCA8C5021593 /* Build configuration list for PBXNativeTarget "PilotLogbookTests" */;
+			buildPhases = (
+				A2A1DDBD7A9ADC8BA33A72F1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6465BBF2001C328EFE5C1746 /* PBXTargetDependency */,
+			);
+			name = PilotLogbookTests;
+			packageProductDependencies = (
+			);
+			productName = PilotLogbookTests;
+			productReference = A78A7E66E2121192F55348FF /* PilotLogbookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		608FE8881A963B5270D04C2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = F7861771F036F83E4C003EA8 /* Build configuration list for PBXProject "PilotLogbook" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 4FB8090C7C808D6231CB16A5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F6415E6695DED862D3372F98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E9AD616500A2D8A479F3DD5 /* PilotLogbook */,
+				9D6B20B037BFFFDEF0B8A330 /* PilotLogbookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E2963B50284588048A1A539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DD6BE14F679C134C9FC0CC /* Aircraft.swift in Sources */,
+				48D26C0B6387E6C725220CA2 /* AircraftEditView.swift in Sources */,
+				15B1468B95D61133FE2040BE /* AircraftManagerView.swift in Sources */,
+				7539B69B616F9C518C9535F2 /* AirportDirectoryService.swift in Sources */,
+				ECD3CDB0550D0A8B4FE6BCAA /* AirportPickerSheet.swift in Sources */,
+				9DD49E5EE80F22E82C269CC0 /* CARsDashboardView.swift in Sources */,
+				DA523CDB8D46CF6C727C3ED7 /* CARsRecencyEngine.swift in Sources */,
+				067BB6F08F106844AE7C4DB4 /* CSVImportService.swift in Sources */,
+				79A6C24D840558F0065C76CB /* ContentView.swift in Sources */,
+				44A3969D5B73C728EFCE61CE /* FlightDetailView.swift in Sources */,
+				C58BB5C29933F4BB5F52841D /* FlightLogEntry.swift in Sources */,
+				14F999F938499677D3DCC697 /* FlightValidationEngine.swift in Sources */,
+				60141F37F00EE6D1F484E3FC /* LogbookListView.swift in Sources */,
+				FE63C82213E08CABDD27A46C /* MacLogbookTableView.swift in Sources */,
+				0BD95FBCF4E3FDBD5913DF02 /* PilotLogbookApp.swift in Sources */,
+				9B74E90DADAC8CF1A8D28AC9 /* PilotProfile.swift in Sources */,
+				A62831B6A70A0ACC7109FFD3 /* QuickLogView.swift in Sources */,
+				B1449C81D2835EB556268BAB /* SimulatorLogView.swift in Sources */,
+				14BF77741C5C3732BF263651 /* SimulatorSession.swift in Sources */,
+				9973FB439786B505A45643E2 /* TimeMathService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A1DDBD7A9ADC8BA33A72F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722F359083DE974881AE4B68 /* AircraftManagementTests.swift in Sources */,
+				0B8FE50437C599D8C6CDCC6A /* CARsRecencyEngineTests.swift in Sources */,
+				9857A367CDF36334E284334D /* FlightValidationTests.swift in Sources */,
+				6000B573A7FC56D335C0C872 /* TimeMathAndAirportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6465BBF2001C328EFE5C1746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E9AD616500A2D8A479F3DD5 /* PilotLogbook */;
+			targetProxy = A72C1FFBF1991037761686EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08F0CDF6089C20233AD727AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.10;
+			};
+			name = Release;
+		};
+		119B17B9AC8CBEAFD2A93548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.pilotlogbook;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		365E30C0CA4FA4273E3A1B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.pilotlogbook;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F322CEC913BD345CFB05787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.10;
+			};
+			name = Debug;
+		};
+		6D84F9959EC70058EB574201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.pilotlogbookTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PilotLogbook.app/PilotLogbook";
+			};
+			name = Debug;
+		};
+		C3ED7FB6ED85210EBC1C6E58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.pilotlogbookTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PilotLogbook.app/PilotLogbook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A62523AB172EFCA8C5021593 /* Build configuration list for PBXNativeTarget "PilotLogbookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D84F9959EC70058EB574201 /* Debug */,
+				C3ED7FB6ED85210EBC1C6E58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D2000D70423440A3B526AE30 /* Build configuration list for PBXNativeTarget "PilotLogbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365E30C0CA4FA4273E3A1B65 /* Debug */,
+				119B17B9AC8CBEAFD2A93548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F7861771F036F83E4C003EA8 /* Build configuration list for PBXProject "PilotLogbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F322CEC913BD345CFB05787 /* Debug */,
+				08F0CDF6089C20233AD727AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 608FE8881A963B5270D04C2F /* Project object */;
+}
